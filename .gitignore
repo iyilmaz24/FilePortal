@@ -39,3 +39,4 @@ frontend/*.iml
 frontend/*.idea
 frontend/*.xml
 
+*.env*
