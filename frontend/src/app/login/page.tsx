@@ -82,9 +82,6 @@ const LoginPage = () => {
                     </button>
                     {errorMessage && <div className="text-red-500 mt-2">{errorMessage}</div>}
                     <div className="flex justify-between mt-4">
-                        <Link href={"/login/forgot-password"}>
-                            <button type="button" className="text-purple-700 hover:underline">Forgot Password?</button>
-                        </Link>
                         <Link href={"/login/signup"}>
                             <button type="button" className="text-purple-700 hover:underline">Sign Up</button>
                         </Link>
